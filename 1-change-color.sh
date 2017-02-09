@@ -32,11 +32,15 @@
 # This is crimson red. #fd424d
 
 #original light version is #9ab87c
-personallightcolour=fd424d
+personallightcolour=436b95
 
 #original dark version is #8fa876
-personaldarkcolour=fd424d
+personaldarkcolour=1685a6
 
+###
+#568F34 dark
+#6db442 light
+###
 
 # THESE CODES MUST BE CHANGED
 # THESE CODES MUST BE CHANGED
@@ -71,7 +75,6 @@ oldcolour5=9ab87d
 oldcolour6=88a66a
 oldcolour7=81a65b
 
-
 newcolour1=$personallightcolour
 newcolour2=$personaldarkcolour
 
@@ -82,13 +85,13 @@ newcolour6=$personallightcolour
 newcolour7=$personaldarkcolour	
 
 
-find src -name "*.*" -type f -exec sed -i 's/'$oldcolour1'/'$newcolour1'/g' {}  \;
-find src -name "*.*" -type f -exec sed -i 's/'$oldcolour2'/'$newcolour2'/g' {}  \;
-find src -name "*.*" -type f -exec sed -i 's/'$oldcolour3'/'$newcolour3'/g' {}  \;
-find src -name "*.*" -type f -exec sed -i 's/'$oldcolour4'/'$newcolour4'/g' {}  \;
-find src -name "*.*" -type f -exec sed -i 's/'$oldcolour5'/'$newcolour5'/g' {}  \;
-find src -name "*.*" -type f -exec sed -i 's/'$oldcolour6'/'$newcolour6'/g' {}  \;
-find src -name "*.*" -type f -exec sed -i 's/'$oldcolour7'/'$newcolour7'/g' {}  \;
+find src -name "*" -type f -exec sed -i 's/'$oldcolour1'/'$newcolour1'/g' {}  \;
+find src -name "*" -type f -exec sed -i 's/'$oldcolour2'/'$newcolour2'/g' {}  \;
+find src -name "*" -type f -exec sed -i 's/'$oldcolour3'/'$newcolour3'/g' {}  \;
+find src -name "*" -type f -exec sed -i 's/'$oldcolour4'/'$newcolour4'/g' {}  \;
+find src -name "*" -type f -exec sed -i 's/'$oldcolour5'/'$newcolour5'/g' {}  \;
+find src -name "*" -type f -exec sed -i 's/'$oldcolour6'/'$newcolour6'/g' {}  \;
+find src -name "*" -type f -exec sed -i 's/'$oldcolour7'/'$newcolour7'/g' {}  \;
 
 
 #Rubberband Solution for now
