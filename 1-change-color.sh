@@ -74,6 +74,7 @@ oldcolour4=9abe76
 oldcolour5=9ab87d
 oldcolour6=88a66a
 oldcolour7=81a65b
+oldcolour8=fbeaa0
 
 newcolour1=$personallightcolour
 newcolour2=$personaldarkcolour
@@ -83,16 +84,17 @@ newcolour4=$personallightcolour
 newcolour5=$personallightcolour
 newcolour6=$personallightcolour
 newcolour7=$personaldarkcolour	
+newcolour8=ecff00
 
 
-find src -name "*" -type f -exec sed -i 's/'$oldcolour1'/'$newcolour1'/g' {}  \;
-find src -name "*" -type f -exec sed -i 's/'$oldcolour2'/'$newcolour2'/g' {}  \;
-find src -name "*" -type f -exec sed -i 's/'$oldcolour3'/'$newcolour3'/g' {}  \;
-find src -name "*" -type f -exec sed -i 's/'$oldcolour4'/'$newcolour4'/g' {}  \;
-find src -name "*" -type f -exec sed -i 's/'$oldcolour5'/'$newcolour5'/g' {}  \;
-find src -name "*" -type f -exec sed -i 's/'$oldcolour6'/'$newcolour6'/g' {}  \;
-find src -name "*" -type f -exec sed -i 's/'$oldcolour7'/'$newcolour7'/g' {}  \;
-
+find src usr -name "*" -type f -exec sed -i 's/'$oldcolour1'/'$newcolour1'/g' {}  \;
+find src usr -name "*" -type f -exec sed -i 's/'$oldcolour2'/'$newcolour2'/g' {}  \;
+find src usr -name "*" -type f -exec sed -i 's/'$oldcolour3'/'$newcolour3'/g' {}  \;
+find src usr -name "*" -type f -exec sed -i 's/'$oldcolour4'/'$newcolour4'/g' {}  \;
+find src usr -name "*" -type f -exec sed -i 's/'$oldcolour5'/'$newcolour5'/g' {}  \;
+find src usr -name "*" -type f -exec sed -i 's/'$oldcolour6'/'$newcolour6'/g' {}  \;
+find src usr -name "*" -type f -exec sed -i 's/'$oldcolour7'/'$newcolour7'/g' {}  \;
+find src usr -name "*" -type f -exec sed -i 's/'$oldcolour8'/'$newcolour8'/g' {}  \;
 
 #Rubberband Solution for now
 
