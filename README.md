@@ -1,22 +1,22 @@
 # Mint-Y-Colora Theme
 
 
-###The goal is to make a script that makes it easy to change the colours of the Mint-Y theme of Linux Mint.
+## The goal is to make a script that makes it easy to change the colours of the Mint-Y theme of Linux Mint.
  We start from the source files at https://github.com/linuxmint/mint-y-theme (Creator Horst3180) and let loose a few scripts to change the colour accent.
 
 More information can be found here. Including many youtube tutorials.
 
-###http://erikdubois.be/category/themes/mint-y-based-themes/
+http://erikdubois.be/category/themes/mint-y-based-themes/
 
 
-##Mint-Y-COLORA is capable to have ANY colour YOU like.
+## Mint-Y-COLORA is capable to have ANY colour YOU like.
 
 [Sardi icons](https://sourceforge.net/projects/sardi/files/) uses also the term COLORA to indicate that the icons can be ANY colour. Hope this will be more transparent to the end-user.
 
-###Create your own colour accent theme with these scripts.
+Create your own colour accent theme with these scripts.
 
-####These scripts can also be run on other systems then Linux Mint. Scroll down to the bottom to see on which distro's.
- 
+These scripts can also be run on other systems then Linux Mint. Scroll down to the bottom to see on which distro's.
+
 
 Each time I run these scripts, I renamed the result for example from
 
@@ -130,13 +130,22 @@ This is the original Mint-Y-Dark theme with all the little green accents.
 
 
 
-#What Mint-Y variations can you download from the collection github?
+# What Mint-Y variations can you download from the collection github?
 
 
 https://github.com/erikdubois/Mint-Y-Colora-Theme-Collection
 
 
-All themes are sorted alphabetically.
+# Mint-Y-Colora themes on Linux Mint 18.2
+
+
+Google+ is far easier to host the images on
+
+
+https://plus.google.com/collection/UlExqB
+
+
+
 
 
 # This is the Mint-Y-Alu theme.
@@ -389,7 +398,7 @@ Since I sometimes forget to make the script executable, I include here what you 
 
 A script can only run when it is marked as an executable.
 
-    ls -al 
+    ls -al
 
 Above code will reveal if a script has an "x". X meaning executable.
 Google "chmod" and "execute" and you will find more info.
