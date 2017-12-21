@@ -19,6 +19,7 @@ rm -rf src/gtk-2.0/menubar-toolbar/*
 
 rm -rf src/gtk-3.0/3.18/assets/*
 
+find . -name "*.png" -type f -exec convert {} -modulate "100,100,165" {} \;
 
 echo "All png's have been deleted"
 echo "Proceed to making the assets."
